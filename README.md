@@ -1,6 +1,10 @@
 # springbean-master
 演示SpringBean的生命周期
 
+执行结果：
+
+![image](https://github.com/alexandaking/MarkDownPic/blob/master/屏幕快照%202019-06-03%20下午5.40.13.png)
+
 - Bean 容器找到配置文件中 Spring Bean 的定义。
 - Bean 容器利用 Java Reflection API 创建一个Bean的实例。
 - 如果涉及到一些属性值 利用 set()方法设置一些属性值。
